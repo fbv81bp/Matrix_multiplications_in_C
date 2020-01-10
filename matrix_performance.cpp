@@ -64,7 +64,7 @@ int main()
         {
             accu = 0;
             for (l = 0; l < n; l++)
-                accu += A[i][l] * B[l][j];
+                accu += A[i][l] * Bt[j][l];
             C4[i][j] = accu;
         }
 
